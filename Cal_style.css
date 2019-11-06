@@ -1,0 +1,10 @@
+button {
+    font-family: arial,sans-serif;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+textarea {
+    resize: none;
+}
