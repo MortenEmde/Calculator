@@ -21,73 +21,113 @@ btnComma.addEventListener("click", () => {
 
 let btnZero = document.getElementById("zero");
 btnZero.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "0";
     calculationArea.textContent = calculation;
     newNumber += "0";
     operatorLock = false;
+    }
 });
 let btnOne = document.getElementById("one");
 btnOne.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "1";
     calculationArea.textContent = calculation;
     newNumber += "1";
     operatorLock = false;
+    }
 });
 let btnTwo = document.getElementById("two");
 btnTwo.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "2";
     calculationArea.textContent = calculation;
     newNumber += "2";
     operatorLock = false;
+    }
 });
 let btnThree = document.getElementById("three");
 btnThree.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "3";
     calculationArea.textContent = calculation;
     newNumber += "3";
     operatorLock = false;
+    }
 });
 let btnFour = document.getElementById("four");
 btnFour.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "4";
     calculationArea.textContent = calculation;
     newNumber += "4";
     operatorLock = false;
+    }
 });
 let btnFive = document.getElementById("five");
 btnFive.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "5";
     calculationArea.textContent = calculation;
     newNumber += "5";
     operatorLock = false;
+    }
 });
 let btnSix = document.getElementById("six");
 btnSix.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "6";
     calculationArea.textContent = calculation;
     newNumber += "6";
     operatorLock = false;
+    }
 });
 let btnSeven = document.getElementById("seven");
 btnSeven.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "7";
     calculationArea.textContent = calculation;
     newNumber += "7";
     operatorLock = false;
+    }
 });
 let btnEight = document.getElementById("eight");
 btnEight.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "8";
     calculationArea.textContent = calculation;
     newNumber += "8";
     operatorLock = false;
+    }
 });
 let btnNine = document.getElementById("nine");
 btnNine.addEventListener("click", () => {
+    if (operator == "equal") {
+        return
+    } else {
     calculation += "9";
     calculationArea.textContent = calculation;
     newNumber += "9";
     operatorLock = false;
+    }
 });
 
 let btnPlus = document.getElementById("plus");
